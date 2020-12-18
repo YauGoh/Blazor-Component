@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Yau Goh Chow",
+  "classifications": [ "Web/ASP.NET" ],
+  "identity": "Blazor",
+  "name": "Blazor component with code-behind",
+  "shortName": "blazcom",
+  "sourceName": "__Component__" ,
+  "symbols": {
+     "namespace": {
+        "type": "parameter",
+		"defaultValue": "App.Components",
+		"replaces": "__Namespace__" 
+     }
+  },
+  "tags": {
+      "language": "C#",
+	  "type": "class"
+  }
+}
